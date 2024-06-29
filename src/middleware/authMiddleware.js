@@ -9,7 +9,7 @@ function authenticateToken(req, res, next) {
     return res.status(401).json({ message: 'Authorization token is required' });
   }
 
-  jwt.verify(token, config.jwtSecret, (err, decoded) => {
+  jwt.verify(token, config.JWT_SECRET, (err, decoded) => {
     if (err) {
       return res.status(403).json({ message: 'Invalid token' });
     }
