@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Output of build tools
+dist/
+build/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore package-lock.json file
+package-lock.json
+
+# Ignore yarn lock file
+yarn.lock
